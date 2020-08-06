@@ -27,15 +27,19 @@ $(document).ready(function() {
             alert("Đăng nhập thành công.");
             $('#login').hide();
             $('.form-login').hide(400);
+            $('.modal-backdrop').remove('.modal-backdrop');
         } else {
             alert("Sai user hoặc password.");
         }
     });
+
+
 
     $('#actionsignup').click(function(e) {
         e.preventDefault();
         alert("Đăng ký thành công.");
         $('#signup').hide();
         $('.form-signup').hide(400);
+        $('.modal-backdrop').remove('.modal-backdrop');
     });
 });
