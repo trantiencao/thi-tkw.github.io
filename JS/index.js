@@ -29,7 +29,7 @@ $(document).ready(function() {
             $('.form-login').hide(400);
             $('.modal-backdrop').remove('.modal-backdrop');
         } else {
-            alert("Sai user hoặc password.");
+            alert("user hoặc password không đúng.");
         }
     });
 
