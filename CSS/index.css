@@ -3,7 +3,7 @@
     display: inline-block;
 }
 
-.dropdown-content {
+.dropdown-menu {
     display: none;
     position: absolute;
     z-index: 1;
@@ -12,30 +12,6 @@
     border-bottom: 1px solid white;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.submenu-dropdown-1 {
-    position: relative;
-    display: inline-block;
-}
-
-.submenu-dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    list-style: none;
-}
-
-.submenu-dropdown-1:hover .submenu-dropdown-content {
-    display: block;
-}
-
-.submenu-dropdown-2:hover .submenu-dropdown-content {
-    display: block;
-}
-
-.submenu-dropdown-3:hover .submenu-dropdown-content {
+.dropdown:hover .dropdown-menu {
     display: block;
 }
